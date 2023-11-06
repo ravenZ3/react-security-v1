@@ -1,0 +1,71 @@
+/* Style for the entire dashboard container */
+.dashboard {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Style for the title */
+  h4 {
+    color: #333;
+  }
+  
+  /* Style for the search input */
+  #searchText {
+    margin-bottom: 16px;
+  }
+  
+  /* Style for the code pattern display */
+  pre {
+    background-color: #fff;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-family: monospace;
+  }
+  
+  /* Style for the number displays */
+  h5 {
+    color: #333;
+    margin-top: 16px;
+  }
+  
+  /* Style for the N/A text in number displays */
+  p {
+    color: #999;
+  }
+
+  /* Add this to your CSS file, e.g., dashboard.css */
+
+.spinner-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.spinner {
+  border: 4px solid rgba(255, 255, 255, 0.3);
+  border-top: 4px solid #007bff; /* Adjust the color as needed */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 2s linear infinite;
+}
+
+.loading-text {
+  margin-top: 16px;
+  font-weight: bold;
+  color: #007bff; /* Adjust the color as needed */
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+  
